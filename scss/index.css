@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFF5F1;
+  color: #BA8872;
+}
+
+main {
+  padding: 20px;
+}
+main .posts-list .post-item {
+  padding: 10px;
+  background-color: #FFFEFD;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+main .posts-list .post-item h2 {
+  color: #BA8872;
+}
+main .posts-list .post-item p {
+  color: black;
+}
+main .posts-list .post-item span {
+  font-size: 12px;
+  color: #BA8872;
+}
+main .posts-list .post-item a {
+  color: #BA8872;
+  text-decoration: none;
+}
+main .posts-list .post-item a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=index.css.map */

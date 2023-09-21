@@ -1,0 +1,41 @@
+body {
+  background-color: #FFF5F1;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #DCB6A5;
+  background-color: #FFFEFD;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px #BA8872;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #BA8872;
+}
+
+input {
+  width: 95%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #DCB6A5;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #FFE7DC;
+  border: none;
+  cursor: pointer;
+  color: #FFFEFD;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #DCB6A5;
+}/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,50 @@
+@import 'main_color';
+
+header {
+    background-color: $color-primary-0;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: $color-primary-3;
+    padding: 20px;
+    text-align: center;
+}
+
+.dashboard {
+  padding: 20px;
+  background-color: $color-primary-1;
+
+  .create-post-button {
+    display: inline-block;
+    background-color: $color-primary-0;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: $color-primary-1;
+    text-decoration: none;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: $color-primary-3;
+    }
+  }
+
+  .posts-list {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin-bottom: 10px;
+
+      a {
+        color: $color-primary-4;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

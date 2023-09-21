@@ -1,0 +1,24 @@
+.edit-page {
+  margin: 1rem;
+}
+.edit-page form {
+  display: flex;
+  flex-direction: column;
+}
+.edit-page form label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.edit-page form input, .edit-page form textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #85A4B0;
+  border-radius: 0.3rem;
+}
+.edit-page form button {
+  background-color: #C3D7DF;
+  color: #FFFFFF;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}/*# sourceMappingURL=edit.css.map */

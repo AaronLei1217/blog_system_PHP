@@ -1,0 +1,42 @@
+header {
+  background-color: #FFE7DC;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #DCB6A5;
+  padding: 20px;
+  text-align: center;
+}
+
+.dashboard {
+  padding: 20px;
+  background-color: #FFFEFD;
+}
+.dashboard .create-post-button {
+  display: inline-block;
+  background-color: #FFE7DC;
+  padding: 10px 15px;
+  border-radius: 4px;
+  color: #FFFEFD;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+.dashboard .create-post-button:hover {
+  background-color: #DCB6A5;
+}
+.dashboard .posts-list {
+  list-style: none;
+  padding: 0;
+}
+.dashboard .posts-list li {
+  margin-bottom: 10px;
+}
+.dashboard .posts-list li a {
+  color: #BA8872;
+  text-decoration: none;
+}
+.dashboard .posts-list li a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=dashboard.css.map */
